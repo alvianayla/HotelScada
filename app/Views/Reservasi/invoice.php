@@ -119,7 +119,7 @@
                                 HOTELSCADA                            </td>
 
                             <td>
-                                ID Reservasi: <?= [0][0]['id_reservasi'] ?><br />
+                                ID Reservasi: <?= $reservasi[0]['id_reservasi'] ?><br />
                                 Check-in: <?= $reservasi[0]['cek-in'] ?><br />
                                 Check-out: <?= $reservasi[0]['cek-out'] ?>
                             </td>
